@@ -41,6 +41,7 @@ EduNova is a complete school management platform built with **Flask** and **Mong
 ## 📸 Screenshots
 
 > All panels are live and functional. The screenshots below show the actual UI layout of each panel.
+> ![TOTAL PROJECT DEMO](edunova_hero_banner.svg)
 
 ### 🔐 Login Page
 
