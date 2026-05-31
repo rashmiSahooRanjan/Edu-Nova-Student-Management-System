@@ -1,0 +1,71 @@
+
+<style>
+.ss-wrap{font-family:system-ui,sans-serif;background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:12px;margin-bottom:8px}
+.ss-label{font-size:11px;color:var(--color-text-tertiary);margin-bottom:8px;font-weight:500;letter-spacing:.5px;text-transform:uppercase}
+.login-shell{display:flex;border-radius:12px;overflow:hidden;border:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary)}
+.login-left{width:220px;background:#1e1b4b;padding:24px 20px;flex-shrink:0;display:flex;flex-direction:column;gap:16px}
+.login-right{flex:1;padding:24px 22px;background:var(--color-background-primary)}
+.brand-row{display:flex;align-items:center;gap:10px}
+.brand-icon{width:36px;height:36px;background:#4f46e5;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px}
+.brand-name{color:#fff;font-size:16px;font-weight:700}
+.brand-tag{font-size:10px;color:#818cf8}
+.hero-h{color:#fff;font-size:17px;font-weight:700;line-height:1.3}
+.hero-p{color:#c7d2fe;font-size:11px;line-height:1.5}
+.role-card{background:rgba(255,255,255,.08);border-radius:8px;padding:10px 12px;border:0.5px solid rgba(255,255,255,.12)}
+.rc-title{color:#e0e7ff;font-size:11px;font-weight:600}
+.rc-sub{color:#818cf8;font-size:10px;margin-top:2px}
+.form-title{font-size:18px;font-weight:700;color:var(--color-text-primary);margin-bottom:2px}
+.form-sub{font-size:12px;color:var(--color-text-secondary);margin-bottom:14px}
+.role-tabs{display:flex;background:var(--color-background-secondary);border-radius:8px;padding:3px;gap:3px;margin-bottom:14px}
+.rtab{flex:1;padding:7px 4px;border-radius:6px;text-align:center;font-size:11px;font-weight:600;color:var(--color-text-secondary);cursor:default}
+.rtab.active{background:var(--color-background-primary);color:#4f46e5;border:0.5px solid var(--color-border-tertiary)}
+.fgroup{margin-bottom:12px}
+.flabel{font-size:11px;font-weight:600;color:var(--color-text-secondary);margin-bottom:4px}
+.finput{width:100%;padding:9px 12px;border-radius:8px;border:1.5px solid var(--color-border-secondary);background:var(--color-background-primary);font-size:12px;color:var(--color-text-primary);box-sizing:border-box}
+.finput.focused{border-color:#4f46e5}
+.btn-login{width:100%;padding:10px;background:#4f46e5;color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:700;cursor:default;margin-top:4px}
+.demo-box{background:#f5f3ff;border:1px solid #e0e7ff;border-radius:8px;padding:10px 12px;margin-top:12px;font-size:11px}
+.demo-row{display:flex;justify-content:space-between;color:#4338ca;padding:2px 0}
+.demo-title{font-size:11px;font-weight:700;color:#4f46e5;margin-bottom:6px}
+.link-row{text-align:center;font-size:11px;color:var(--color-text-secondary);margin-top:10px}
+.link-row a{color:#4f46e5;font-weight:600;text-decoration:none}
+</style>
+<div class="ss-wrap">
+<div class="ss-label">Login page — role-based authentication</div>
+<div class="login-shell">
+  <div class="login-left">
+    <div class="brand-row">
+      <div class="brand-icon">🎓</div>
+      <div><div class="brand-name">EduNova</div><div class="brand-tag">School Management</div></div>
+    </div>
+    <div>
+      <div class="hero-h">Three Panels,<br>One Platform</div>
+      <div class="hero-p" style="margin-top:6px">Separate dashboards for every role with its own features and permissions.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div class="role-card"><div class="rc-title">🛡 Admin Panel</div><div class="rc-sub">Full access — students, teachers, fees</div></div>
+      <div class="role-card"><div class="rc-title">👩‍🏫 Teacher Panel</div><div class="rc-sub">Attendance, marks, view students</div></div>
+      <div class="role-card"><div class="rc-title">🎓 Student Panel</div><div class="rc-sub">View grades, attendance, fees</div></div>
+    </div>
+  </div>
+  <div class="login-right">
+    <div class="form-title">Welcome Back!</div>
+    <div class="form-sub">Sign in to access your panel</div>
+    <div class="role-tabs">
+      <div class="rtab active">🛡 Admin</div>
+      <div class="rtab">👩‍🏫 Teacher</div>
+      <div class="rtab">🎓 Student</div>
+    </div>
+    <div class="fgroup"><div class="flabel">Email Address</div><input class="finput focused" value="admin@school.com" readonly></div>
+    <div class="fgroup"><div class="flabel">Password</div><input class="finput" type="password" value="admin123" readonly></div>
+    <div class="btn-login">🔒 Sign In</div>
+    <div class="demo-box">
+      <div class="demo-title">🔑 Demo Credentials</div>
+      <div class="demo-row"><span>Admin:</span><span>admin@school.com / admin123</span></div>
+      <div class="demo-row"><span>Teacher:</span><span>teacher@school.com / teacher123</span></div>
+      <div class="demo-row"><span>Student:</span><span>student@school.com / student123</span></div>
+    </div>
+    <div class="link-row">Don't have an account? <a href="#">Register</a></div>
+  </div>
+</div>
+</div>
