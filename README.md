@@ -23,6 +23,7 @@
 - [Quick Start](#-quick-start)
 - [Demo Credentials](#-demo-credentials)
 - [Project Structure](#-project-structure)
+- [Project Structure](#-project-architecture)
 - [How Data Isolation Works](#-how-data-isolation-works)
 - [API Reference](#-api-reference)
 - [Database Setup](#%EF%B8%8F-database-setup)
@@ -417,6 +418,13 @@ edunova-sms/
 └── 📂 utils/
     ├── helpers.py              # @login_required, @role_required decorators
     └── pdf_reports.py          # PDF report generation
+```
+---
+
+## 📁 Project Structure
+
+```
+![Project Architecture](edunova_architecture_diagram.svg)
 ```
 
 ---
