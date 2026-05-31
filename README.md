@@ -23,7 +23,6 @@
 - [Quick Start](#-quick-start)
 - [Demo Credentials](#-demo-credentials)
 - [Project Structure](#-project-structure)
-- [Project Architecture](#-project-architecture)
 - [How Data Isolation Works](#-how-data-isolation-works)
 - [API Reference](#-api-reference)
 - [Database Setup](#%EF%B8%8F-database-setup)
@@ -355,6 +354,7 @@ Open **http://localhost:5000** — demo accounts and seed data are created autom
 ## 📁 Project Structure
 
 ```
+![Architecture Diagram](edunova_architecture_diagram.svg)
 edunova-sms/
 │
 ├── 📄 app.py                   # Flask app factory — blueprints + seeding
@@ -418,13 +418,6 @@ edunova-sms/
 └── 📂 utils/
     ├── helpers.py              # @login_required, @role_required decorators
     └── pdf_reports.py          # PDF report generation
-```
----
-
-## 📁 Project Arhitecture
-
-```
-![TOTAL PROJECT DEMO](edunova_architecture_diagram.svg)
 ```
 
 ---
