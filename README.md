@@ -41,7 +41,9 @@ EduNova is a complete school management platform built with **Flask** and **Mong
 ## 📸 Screenshots
 
 > All panels are live and functional. The screenshots below show the actual UI layout of each panel.
+> Deploy Link:- https://edu-nova-student-management-system.onrender.com/auth/login
 > ![TOTAL PROJECT DEMO](edunova_hero_banner.svg)
+> ![Architecture Diagram](edunova_architecture_diagram.svg)
 
 ### 🔐 Login Page
 
@@ -354,7 +356,6 @@ Open **http://localhost:5000** — demo accounts and seed data are created autom
 ## 📁 Project Structure
 
 ```
-![Architecture Diagram](edunova_architecture_diagram.svg)
 edunova-sms/
 │
 ├── 📄 app.py                   # Flask app factory — blueprints + seeding
